@@ -1,0 +1,63 @@
+.card{
+    width: 262px;
+    margin: 10px;
+    height: 200px;
+    background:white;
+    border-radius: 10px;
+    border: 1px solid black;
+    padding: 20px;
+    font-family: "Nunito Sans";
+
+   & >  span{
+        display: flex;
+        column-gap: 10px;
+        align-items: center;
+        padding-bottom: 20px;
+        border-bottom: 1px solid lightgray;
+        
+    }
+    .cards__container{
+        margin-top: 10px;
+        display: flex;
+        justify-content: space-between;
+        padding: 10px 0;
+        align-items: center;
+        .cards__wrapper{
+            display: flex;
+            flex-direction: column;
+            row-gap: 5px;
+            .cards__content{
+                display: flex;
+                align-items: baseline;
+                column-gap: 2px;
+                font-family: 'Nunito Sans';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 12px;
+                line-height: 16px;
+            }
+        }
+    }
+    .icon{
+        width: max-content;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        border-radius: 6px;
+        color: #4DBD98;
+        padding: 4px;
+        background: rgba(77, 189, 152, 0.1);
+    }
+    .icon2{
+        width: max-content;
+        margin-top: 10px;
+        display: flex;
+        align-items: center;
+        column-gap: 10px;
+        color:#F15832;
+        padding: 4px;
+        border-radius: 6px;
+        background: rgba(241, 88, 50, 0.1);
+    }
+}

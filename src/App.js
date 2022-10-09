@@ -1,23 +1,32 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Barchart from './components/Barchart';
+import Cards from './components/Cards';
+import DoughnutBar from './components/Doughnut';
+import Sidebar from './components/Sidebar';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <Sidebar />   */}
+      {/* <DoughnutBar /> */}
+      {/* <Barchart /> */}
+     
+       <Cards header="Average PR Size"
+        value1={968}
+        value2={240}
+        text1={"lines"}
+        text2={"kb"}
+        icon={true}
+        text3={"Line Change"}
+        text4={ "Size"}
+        icon__Text={ "24%" } />
+          <Cards header="Average Ticket Duration"
+        value1={36}
+        text1={"hours"}
+        icon={false}
+        text3={"Hours Worked"}
+        icon__Text={"79%"} />
     </div>
   );
 }
