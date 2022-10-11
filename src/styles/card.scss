@@ -1,12 +1,11 @@
 .card{
-    width: 262px;
-    margin: 10px;
-    height: 200px;
+    display: block;
     background:white;
     border-radius: 10px;
-    border: 1px solid black;
     padding: 20px;
     font-family: "Nunito Sans";
+    height: inherit;
+    width: 90%;
 
    & >  span{
         display: flex;

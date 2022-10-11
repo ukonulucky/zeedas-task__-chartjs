@@ -1,0 +1,190 @@
+.progress {
+  padding: 10px;
+  border-radius: 8px;
+  padding: 15px;
+  display: block;
+  height: 90%;
+}
+
+.progress > span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.progress .progress__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 20px 0;
+  -webkit-column-gap: 20px;
+          column-gap: 20px;
+}
+
+.progress .progress__wrapper .cards__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  -webkit-column-gap: 2px;
+          column-gap: 2px;
+}
+
+.progress .progress__wrapper .cards__content h2 {
+  font-weight: bolder;
+}
+
+.progress .progress__wrapper2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow: hidden;
+  border: 1px solid gray;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+  border-radius: 20px;
+}
+
+.progress .progress__wrapper2 span:nth-child(1) {
+  display: block;
+  height: 37px;
+  background-color: green;
+}
+
+.progress .progress__wrapper2 span:nth-child(2) {
+  display: block;
+  height: 37px;
+  background-color: blue;
+}
+
+.progress .progress__wrapper2 span:nth-child(3) {
+  display: block;
+  height: 37px;
+  background-color: black;
+}
+
+.progress .progress__wrapper2 span:nth-child(4) {
+  display: block;
+  height: 37px;
+  background-color: #F15832;
+}
+
+.progress .label {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-column-gap: 100px;
+          column-gap: 100px;
+  margin-top: 20px;
+}
+
+.progress .label .label__left {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+}
+
+.progress .label .label__left p:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.progress .label .label__left p:nth-child(1) span {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-color: green;
+}
+
+.progress .label .label__left p:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.progress .label .label__left p:nth-child(2) span {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-color: blue;
+}
+
+.progress .label .label__right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  row-gap: 10px;
+}
+
+.progress .label .label__right p:nth-child(1) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.progress .label .label__right p:nth-child(1) span {
+  display: block;
+  height: 20px;
+  width: 20px;
+  border-radius: 50px;
+  margin-right: 10px;
+  background-color: black;
+}
+
+.progress .label .label__right p:nth-child(2) {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.progress .label .label__right p:nth-child(2) span {
+  display: block;
+  height: 20px;
+  width: 20px;
+  margin-right: 10px;
+  border-radius: 50px;
+  background-color: #F15832;
+}
+/*# sourceMappingURL=Progress.css.map */

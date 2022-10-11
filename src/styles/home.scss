@@ -1,0 +1,92 @@
+.home{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+   
+    .home__right{
+        flex: 1;
+        padding: 40px 20px;
+        background-color: rgba(247, 247, 247, 0.9);
+        .home__header{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .home__drop{
+                
+                width: max-content;
+                padding: 10px;
+                border-radius: 10px;
+                cursor: pointer;
+                background-color: white;
+                select{
+                    list-style:none;
+                    border: 0px;
+                    background-color: white;
+                    outline: none;
+                    width: 50px;
+                    font-size: 20px;
+                }
+            }
+        }
+        .body{
+            width: 100%;
+            display: grid;
+             grid-template-columns: repeat(7, 1fr);
+            grid-template-rows: repeat(5, 1fr);
+           height: 70vh;
+           grid-gap: 40px;
+           padding: 10px 10px;
+           .body__doughnut{
+            
+            grid-column: 1/5;
+            grid-row: 3/6; 
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+           
+           }
+           .body__barchart{
+            grid-column: 5/8;
+            grid-row: 4/6; 
+            border-radius: 15px;
+            background-color: #fff;
+            display: flex;
+            align-items: flex-end;
+            justify-content: center;
+           }
+           .body__card1{
+            grid-column: 1/3;
+            grid-row: 1/3; 
+            background-color: white;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          
+           }
+           .body__card2{
+            grid-column: 3/5;
+            grid-row: 1/3; 
+            background-color: #fff;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           }
+           .body__progress{
+            grid-column: 5/8;
+            grid-row: 1/4; 
+            background-color: #fff;
+            border-radius: 15px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+           
+           }
+           
+        }
+    }
+
+}

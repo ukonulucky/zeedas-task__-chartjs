@@ -45,7 +45,7 @@ const data = {
 
 function Barchart() {
   return <div className="barchart" style={{
-    height:"300px",
+    height:"maxContent",
     width:"400px"
   }}>
     <Bar options={options} data={data} />
